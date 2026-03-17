@@ -1,0 +1,14 @@
+Kulanıcıdan alınan sayiların içinde tek kez yazılanları verecek 
+nom = input("Bir sayı girin: ") 
+sayac = {}
+
+for sayi in nom:               
+    if sayi in sayac:          
+        sayac[sayi] += 1       
+    else:
+        sayac[sayi] = 1        
+
+
+for sayi, adet in sayac.items():  
+    if adet == 1:
+        print(sayi, end=" ")   
