@@ -31,3 +31,22 @@ quit()
 metin=input("yaz: ")
 ters=metin[::-1]
 print("tersten metin: ",ters)
+
+
+#faktoriyal çarpım hesaplayan kod yaz
+d=0
+s=0
+a=int(input("sayi: "))
+for i in range(a,0,-1):
+ s=a*i
+
+ print(i,s)
+
+liste=input("dizi gir: ")
+
+liste=[int(x)for x in liste]
+enbuyuk=liste[0]
+for sayi in liste:
+ if sayi>enbuyuk:
+  enbuyuk=sayi
+  print("En ulu sayi",enbuyuk)
