@@ -1,0 +1,33 @@
+def fib(n):
+ a=0
+ s=1
+for i in range(n):
+ print(a)
+ a,s=s,a+s
+fib(10)
+quit()
+exit()
+#asal sayi bulma 
+a=int(input("sayi: "))
+if a>1:
+    for i in range(2,a):
+        if a%i==0:
+            print("asal amas")
+            break
+        else:
+            print("asal sayi")
+    else:
+        print("asal amas")
+
+# metin tersten yazdırma 
+metin=input("metin : ")
+ters=""
+for i in metin:
+    ters=i+ters
+    print(ters)
+
+quit()
+# ikiside aynı 
+metin=input("yaz: ")
+ters=metin[::-1]
+print("tersten metin: ",ters)
