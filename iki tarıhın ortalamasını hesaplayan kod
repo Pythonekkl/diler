@@ -1,0 +1,12 @@
+tarihyl=int(input("hesaplayacaginiz sene >"))
+simdikiyl=int(input("şimdi hangi senedesiniz >"))
+hesap_yl=0
+fark=simdikiyl-tarihyl
+if fark>0:
+    print("Bu kadar geçmiş > ",fark)
+elif fark==0:
+    print("ayny yl > ",fark)
+elif fark<0:
+    print("Bu kadar var > ",fark)
+enter=int(input("enter finito"))
+quit()
