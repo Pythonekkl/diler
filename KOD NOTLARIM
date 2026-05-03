@@ -1,3 +1,45 @@
 data.tail -> "Bu bir tail fonksiyonudur" (Sadece bilgi verir).
 
 data.tail() -> "Bu fonksiyonu hemen çalıştır ve bana verinin sonunu göster" (İşlemi yapar).
+
+import → içe aktarmak (kütüphane eklemek)
+
+socket → soket (ağ bağlantısı için yapı)
+
+json → JSON formatı (veri değişim biçimi)
+
+client → istemci (sunucuya bağlanan taraf)
+
+server → sunucu (istekleri karşılayan taraf)
+
+AF_INET → IPv4 adres ailesi
+
+SOCK_STREAM → TCP bağlantısı (güvenilir, akış tabanlı)
+
+connect → bağlanmak
+
+ip → internet protokol adresi (ör. 127.0.0.1)
+
+port → bağlantı noktası (ör. 5000)
+
+request → istek (sunucuya gönderilen veri)
+
+send → göndermek
+
+encode → metni byte dizisine dönüştürmek
+
+recv → almak (sunucudan veri çekmek)
+
+data → veri
+
+decode → byte dizisini tekrar metne çevirmek
+
+loads → JSON string’i Python sözlüğüne dönüştürmek
+
+dumps → Python sözlüğünü JSON string’e dönüştürmek
+
+response → yanıt (sunucudan gelen cevap)
+
+result → sonuç
+
+close → kapatmak (bağlantıyı sonlandırmak)
